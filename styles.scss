@@ -1,1 +1,19 @@
+$primary-color: #2b78e4;
+$nav-text: #fefefe;
+$login-button: #9fc5f8;
+$sign-up-button: #009e0f;
 
+nav {
+  color: $nav-text;
+  background-color: $primary-color;
+  a {
+    color: $nav-text;
+    font-size:40px;
+  }
+  #login-button{
+    color:black;
+  }
+  label {
+    font-weight:200;
+  }
+}
